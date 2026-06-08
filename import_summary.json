@@ -1,0 +1,72 @@
+{
+  "total": 11,
+  "missing": [],
+  "products": [
+    {
+      "nome": "KIT CONECTOR 3 VIAS FEMEA NMAX",
+      "preco": 25,
+      "imagens": 3,
+      "categoria": "Conectores"
+    },
+    {
+      "nome": "KIT CONECTOR 3 VIAS FEMEA PCX150",
+      "preco": 28,
+      "imagens": 1,
+      "categoria": "Conectores"
+    },
+    {
+      "nome": "KIT CONECTOR 3 VIAS MACHO NMAX",
+      "preco": 25,
+      "imagens": 3,
+      "categoria": "Conectores"
+    },
+    {
+      "nome": "KIT CONECTOR 3 VIAS Plugue Retifi Cb 300 13-15 Twister Cbx 250 Xre 300 Zouil",
+      "preco": 28.8,
+      "imagens": 3,
+      "categoria": "Conectores"
+    },
+    {
+      "nome": "TERMINAL 2.8 FEMEA 0.58",
+      "preco": 58,
+      "imagens": 1,
+      "categoria": "Terminais"
+    },
+    {
+      "nome": "TERMINAL 2.8 MACHO 0.58",
+      "preco": 58,
+      "imagens": 2,
+      "categoria": "Terminais"
+    },
+    {
+      "nome": "TERMINAL F. G177 1.80",
+      "preco": 1.8,
+      "imagens": 2,
+      "categoria": "Terminais"
+    },
+    {
+      "nome": "TERMINAL G243 -1.85",
+      "preco": 1.85,
+      "imagens": 2,
+      "categoria": "Terminais"
+    },
+    {
+      "nome": "TERMINAL G246 -1.85",
+      "preco": 1.85,
+      "imagens": 2,
+      "categoria": "Terminais"
+    },
+    {
+      "nome": "TERMINAL SHUR PLUG FEMEA 0.40",
+      "preco": 40,
+      "imagens": 2,
+      "categoria": "Terminais"
+    },
+    {
+      "nome": "TERMINAL SHUR PLUG MACHO 0.40",
+      "preco": 40,
+      "imagens": 2,
+      "categoria": "Terminais"
+    }
+  ]
+}

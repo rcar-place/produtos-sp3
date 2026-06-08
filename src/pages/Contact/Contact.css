@@ -1,0 +1,184 @@
+/* ============================================
+   SP3 CONECTORES — Contact Page Styles
+   ============================================ */
+
+/* ── Header ── */
+.contact-header {
+  background: var(--gradient-primary);
+  padding: var(--space-16) 0 var(--space-12);
+  position: relative;
+  overflow: hidden;
+}
+
+.contact-header::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(37, 99, 235, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(37, 99, 235, 0.06) 1px, transparent 1px);
+  background-size: 50px 50px;
+  pointer-events: none;
+}
+
+.contact-header__title {
+  font-size: var(--font-size-4xl);
+  font-weight: var(--font-weight-extrabold);
+  color: var(--color-white);
+  margin-bottom: var(--space-3);
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .contact-header__title {
+    font-size: var(--font-size-5xl);
+  }
+}
+
+.contact-header__subtitle {
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-400);
+  position: relative;
+  margin: 0;
+}
+
+/* ── Content ── */
+.contact-content {
+  padding: var(--space-16) 0;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-10);
+}
+
+@media (min-width: 1024px) {
+  .contact-grid {
+    grid-template-columns: 1.2fr 1fr;
+    gap: var(--space-12);
+  }
+}
+
+.contact-grid__title {
+  font-size: var(--font-size-2xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-primary-900);
+  margin-bottom: var(--space-2);
+}
+
+.contact-grid__description {
+  color: var(--color-gray-500);
+  margin-bottom: var(--space-8);
+}
+
+/* ── Info Card ── */
+.contact-info-card {
+  background: var(--color-primary-900);
+  color: var(--color-white);
+  border-radius: var(--radius-2xl);
+  padding: var(--space-8) var(--space-6);
+  position: relative;
+  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  .contact-info-card {
+    padding: var(--space-10) var(--space-8);
+  }
+}
+
+.contact-info-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(37, 99, 235, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(37, 99, 235, 0.08) 1px, transparent 1px);
+  background-size: 30px 30px;
+  pointer-events: none;
+}
+
+.contact-info-card h3 {
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  margin-bottom: var(--space-2);
+  position: relative;
+}
+
+.contact-info-card > p {
+  color: var(--color-gray-400);
+  margin-bottom: var(--space-8);
+  position: relative;
+}
+
+/* ── Info List ── */
+.contact-info-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+  margin-bottom: var(--space-8);
+  position: relative;
+}
+
+.contact-info-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-4);
+}
+
+.contact-info-list__icon {
+  width: 44px;
+  height: 44px;
+  background: rgba(37, 99, 235, 0.2);
+  color: var(--color-accent-300);
+  border-radius: var(--radius-lg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.contact-info-list li div {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+
+.contact-info-list li strong {
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-white);
+}
+
+.contact-info-list li span {
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-400);
+}
+
+.contact-info-list li a {
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-400);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+
+.contact-info-list li a:hover {
+  color: var(--color-accent-300);
+}
+
+/* ── Map ── */
+.contact-map {
+  padding: 0 0 var(--space-16);
+}
+
+.contact-map__wrapper {
+  border-radius: var(--radius-2xl);
+  overflow: hidden;
+  border: 1px solid var(--color-gray-200);
+  box-shadow: var(--shadow-lg);
+}
+
+.contact-map__wrapper iframe {
+  display: block;
+}

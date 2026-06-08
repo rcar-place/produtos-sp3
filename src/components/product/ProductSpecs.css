@@ -1,0 +1,61 @@
+/* ============================================
+   SP3 CONECTORES — ProductSpecs Styles
+   ============================================ */
+
+.product-specs {
+  margin-top: var(--space-8);
+}
+
+.product-specs__title {
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-primary-900);
+  margin-bottom: var(--space-5);
+  padding-bottom: var(--space-3);
+  border-bottom: 2px solid var(--color-accent-500);
+  display: inline-block;
+}
+
+.product-specs__table {
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  border: 1px solid var(--color-gray-200);
+}
+
+.product-specs__row {
+  display: flex;
+  padding: var(--space-4) var(--space-5);
+  transition: background var(--transition-fast);
+}
+
+.product-specs__row--even {
+  background: var(--color-gray-50);
+}
+
+.product-specs__row:hover {
+  background: var(--color-accent-100);
+}
+
+.product-specs__label {
+  flex: 0 0 40%;
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-primary-900);
+  font-size: var(--font-size-sm);
+}
+
+.product-specs__value {
+  flex: 1;
+  color: var(--color-gray-600);
+  font-size: var(--font-size-sm);
+}
+
+@media (max-width: 480px) {
+  .product-specs__row {
+    flex-direction: column;
+    gap: var(--space-1);
+  }
+
+  .product-specs__label {
+    flex: none;
+  }
+}

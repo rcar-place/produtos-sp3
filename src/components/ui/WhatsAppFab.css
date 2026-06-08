@@ -1,0 +1,69 @@
+/* ============================================
+   SP3 CONECTORES — WhatsApp FAB Styles
+   ============================================ */
+
+.whatsapp-fab {
+  position: fixed;
+  bottom: var(--space-6);
+  right: var(--space-6);
+  width: 60px;
+  height: 60px;
+  background: var(--color-whatsapp);
+  color: var(--color-white);
+  border-radius: var(--radius-full);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
+  z-index: var(--z-fab);
+  transition: background var(--transition-fast);
+  text-decoration: none;
+}
+
+.whatsapp-fab:hover {
+  background: var(--color-whatsapp-hover);
+  color: var(--color-white);
+}
+
+.whatsapp-fab__tooltip {
+  position: absolute;
+  right: calc(100% + 12px);
+  background: var(--color-primary-900);
+  color: var(--color-white);
+  padding: var(--space-2) var(--space-4);
+  border-radius: var(--radius-lg);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity var(--transition-fast);
+  box-shadow: var(--shadow-lg);
+}
+
+.whatsapp-fab__tooltip::after {
+  content: '';
+  position: absolute;
+  right: -6px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 6px solid transparent;
+  border-left-color: var(--color-primary-900);
+}
+
+.whatsapp-fab:hover .whatsapp-fab__tooltip {
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .whatsapp-fab {
+    width: 52px;
+    height: 52px;
+    bottom: var(--space-4);
+    right: var(--space-4);
+  }
+
+  .whatsapp-fab__tooltip {
+    display: none;
+  }
+}

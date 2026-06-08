@@ -1,0 +1,158 @@
+/* ============================================
+   SP3 CONECTORES — Catalog Page Styles
+   ============================================ */
+
+/* ── Header ── */
+.catalog-header {
+  background: var(--gradient-primary);
+  padding: var(--space-16) 0 var(--space-12);
+  position: relative;
+  overflow: hidden;
+}
+
+.catalog-header::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(37, 99, 235, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(37, 99, 235, 0.06) 1px, transparent 1px);
+  background-size: 50px 50px;
+  pointer-events: none;
+}
+
+.catalog-header__title {
+  font-size: var(--font-size-4xl);
+  font-weight: var(--font-weight-extrabold);
+  color: var(--color-white);
+  margin-bottom: var(--space-3);
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .catalog-header__title {
+    font-size: var(--font-size-5xl);
+  }
+}
+
+.catalog-header__subtitle {
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-400);
+  position: relative;
+  margin: 0;
+}
+
+/* ── Filters ── */
+.catalog-filters {
+  padding: var(--space-8) 0;
+  position: sticky;
+  top: var(--header-height);
+  z-index: var(--z-dropdown);
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--color-gray-200);
+}
+
+.catalog-filters__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.catalog-filters__search {
+  flex: 1;
+}
+
+.catalog-filters__controls {
+  display: flex;
+  gap: var(--space-3);
+  flex-wrap: wrap;
+}
+
+@media (min-width: 768px) {
+  .catalog-filters__wrapper {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .catalog-filters__search {
+    flex: 1;
+    min-width: 280px;
+  }
+
+  .catalog-filters__controls {
+    flex-wrap: nowrap;
+  }
+}
+
+/* ── Select ── */
+.catalog-filters__select-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex: 1;
+  min-width: 180px;
+}
+
+.catalog-filters__select-icon {
+  position: absolute;
+  left: var(--space-4);
+  color: var(--color-gray-400);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.catalog-filters__select {
+  width: 100%;
+  padding: var(--space-3) var(--space-4) var(--space-3) var(--space-10);
+  border: 2px solid var(--color-gray-200);
+  border-radius: var(--radius-xl);
+  font-size: var(--font-size-sm);
+  color: var(--color-primary-900);
+  background: var(--color-white);
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%2394A3B8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right var(--space-4) center;
+  transition: all var(--transition-base);
+}
+
+.catalog-filters__select:focus {
+  border-color: var(--color-accent-500);
+  box-shadow: 0 0 0 3px var(--color-accent-100);
+  outline: none;
+}
+
+/* ── Info ── */
+.catalog-filters__info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: var(--space-2);
+}
+
+.catalog-filters__count {
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-500);
+  font-weight: var(--font-weight-medium);
+}
+
+.catalog-filters__clear {
+  font-size: var(--font-size-sm);
+  color: var(--color-accent-500);
+  font-weight: var(--font-weight-semibold);
+  transition: color var(--transition-fast);
+}
+
+.catalog-filters__clear:hover {
+  color: var(--color-accent-600);
+}
+
+/* ── Products Section ── */
+.catalog-products {
+  padding: var(--space-10) 0 var(--space-20);
+}

@@ -1,0 +1,79 @@
+--- INICIANDO MIGRAÇÃO DE PRODUTOS ---
+Criado diretório de imagens: C:\Users\Usuario\Desktop\sp3\public\images\produtos
+Encontradas 11 pastas de produtos.
+
+Processando produto: KIT CONECTOR 3 VIAS FEMEA NMAX
+  Arquivo de texto encontrado: ESPECIFICAÇAO.txt
+  Preço extraído: R$ 25
+  Imagem copiada: prod_1_1.jpeg
+  Imagem copiada: prod_1_2.jpeg
+  Imagem copiada: prod_1_3.jpeg
+
+Processando produto: KIT CONECTOR 3 VIAS FEMEA PCX150
+  Arquivo de texto encontrado: ESPECIFICAÇAO.txt
+  Preço extraído: R$ 28
+  Imagem copiada: prod_2_1.jpeg
+
+Processando produto: KIT CONECTOR 3 VIAS MACHO NMAX
+  Arquivo de texto encontrado: ESPECIFICAÇAO.txt
+  Preço extraído: R$ 25
+  Imagem copiada: prod_3_1.jpeg
+  Imagem copiada: prod_3_2.jpeg
+  Imagem copiada: prod_3_3.jpeg
+
+Processando produto: KIT CONECTOR 3 VIAS Plugue Retifi Cb 300 13-15 Twister Cbx 250 Xre 300 Zouil
+  Arquivo de texto encontrado: especificaçao.txt
+  Preço extraído: R$ 28.8
+  Imagem copiada: prod_4_1.jpeg
+  Imagem copiada: prod_4_2.jpeg
+  Imagem copiada: prod_4_3.jpeg
+
+Processando produto: TERMINAL 2.8 FEMEA 0.58
+  Arquivo de texto encontrado: especificaçao.txt
+  Preço extraído: R$ 58
+  Imagem copiada: prod_5_1.jpeg
+
+Processando produto: TERMINAL 2.8 MACHO 0.58
+  Arquivo de texto encontrado: especificaçao.txt
+  Preço extraído: R$ 58
+  Imagem copiada: prod_6_1.jpeg
+  Imagem copiada: prod_6_2.jpeg
+
+Processando produto: TERMINAL F. G177 1.80
+  Arquivo de texto encontrado: especificaçao.txt
+  Preço extraído: R$ 1.8
+  Imagem copiada: prod_7_1.jpeg
+  Imagem copiada: prod_7_2.jpeg
+
+Processando produto: TERMINAL G243 -1.85
+  Arquivo de texto encontrado: especificaçao.txt
+  Preço extraído: R$ 1.85
+  Imagem copiada: prod_8_1.jpeg
+  Imagem copiada: prod_8_2.jpeg
+
+Processando produto: TERMINAL G246 -1.85
+  Arquivo de texto encontrado: especificaçao.txt
+  Preço extraído: R$ 1.85
+  Imagem copiada: prod_9_1.jpeg
+  Imagem copiada: prod_9_2.jpeg
+
+Processando produto: TERMINAL SHUR PLUG FEMEA 0.40
+  Arquivo de texto encontrado: especificaçao.txt
+  Preço extraído: R$ 40
+  Imagem copiada: prod_10_1.png
+  Imagem copiada: prod_10_2.jpeg
+
+Processando produto: TERMINAL SHUR PLUG MACHO 0.40
+  Arquivo de texto encontrado: especificaçao.txt
+  Preço extraído: R$ 40
+  Imagem copiada: prod_11_1.png
+  Imagem copiada: prod_11_2.jpeg
+
+--- RELATÓRIO DE INCONSISTÊNCIAS ---
+Nenhuma inconsistência encontrada. Todos os produtos possuem imagem e arquivo .txt.
+
+--- ATUALIZANDO CATÁLOGO ---
+Removendo produtos antigos (teste).
+Catálogo atualizado com sucesso. 11 produtos importados.
+
+--- MIGRAÇÃO CONCLUÍDA ---

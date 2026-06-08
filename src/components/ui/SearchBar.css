@@ -1,0 +1,58 @@
+/* ============================================
+   SP3 CONECTORES — SearchBar Styles
+   ============================================ */
+
+.search-bar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background: var(--color-white);
+  border: 2px solid var(--color-gray-200);
+  border-radius: var(--radius-xl);
+  padding: var(--space-3) var(--space-4);
+  transition: all var(--transition-base);
+  width: 100%;
+}
+
+.search-bar:focus-within {
+  border-color: var(--color-accent-500);
+  box-shadow: 0 0 0 3px var(--color-accent-100);
+}
+
+.search-bar__icon {
+  color: var(--color-gray-400);
+  flex-shrink: 0;
+  margin-right: var(--space-3);
+}
+
+.search-bar:focus-within .search-bar__icon {
+  color: var(--color-accent-500);
+}
+
+.search-bar__input {
+  flex: 1;
+  background: transparent;
+  color: var(--color-primary-900);
+  font-size: var(--font-size-base);
+  min-width: 0;
+}
+
+.search-bar__input::placeholder {
+  color: var(--color-gray-400);
+}
+
+.search-bar__clear {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-gray-400);
+  padding: var(--space-1);
+  border-radius: var(--radius-full);
+  transition: all var(--transition-fast);
+  flex-shrink: 0;
+}
+
+.search-bar__clear:hover {
+  color: var(--color-gray-600);
+  background: var(--color-gray-100);
+}

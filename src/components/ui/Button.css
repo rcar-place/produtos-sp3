@@ -1,0 +1,125 @@
+/* ============================================
+   SP3 CONECTORES — Button Styles
+   ============================================ */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  border: 2px solid transparent;
+  border-radius: var(--radius-lg);
+  font-family: var(--font-family-primary);
+  font-weight: var(--font-weight-semibold);
+  cursor: pointer;
+  transition: all var(--transition-base);
+  text-decoration: none;
+  white-space: nowrap;
+  user-select: none;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* ── Sizes ── */
+.btn--sm {
+  padding: var(--space-2) var(--space-4);
+  font-size: var(--font-size-sm);
+  border-radius: var(--radius-md);
+}
+
+.btn--md {
+  padding: var(--space-3) var(--space-6);
+  font-size: var(--font-size-base);
+}
+
+.btn--lg {
+  padding: var(--space-4) var(--space-8);
+  font-size: var(--font-size-lg);
+}
+
+/* ── Variants ── */
+.btn--primary {
+  background: var(--gradient-accent);
+  color: var(--color-white);
+  box-shadow: 0 4px 14px rgba(37, 99, 235, 0.35);
+}
+
+.btn--primary:hover:not(:disabled) {
+  box-shadow: 0 6px 20px rgba(37, 99, 235, 0.5);
+  transform: translateY(-1px);
+}
+
+.btn--secondary {
+  background: var(--color-primary-900);
+  color: var(--color-white);
+  box-shadow: var(--shadow-md);
+}
+
+.btn--secondary:hover:not(:disabled) {
+  background: var(--color-primary-800);
+  box-shadow: var(--shadow-lg);
+}
+
+.btn--outline {
+  background: transparent;
+  color: var(--color-accent-500);
+  border-color: var(--color-accent-500);
+}
+
+.btn--outline:hover:not(:disabled) {
+  background: var(--color-accent-500);
+  color: var(--color-white);
+}
+
+.btn--whatsapp {
+  background: var(--color-whatsapp);
+  color: var(--color-white);
+  box-shadow: 0 4px 14px rgba(37, 211, 102, 0.35);
+}
+
+.btn--whatsapp:hover:not(:disabled) {
+  background: var(--color-whatsapp-hover);
+  box-shadow: 0 6px 20px rgba(37, 211, 102, 0.5);
+}
+
+.btn--ghost {
+  background: transparent;
+  color: var(--color-gray-600);
+}
+
+.btn--ghost:hover:not(:disabled) {
+  background: var(--color-gray-100);
+  color: var(--color-primary-900);
+}
+
+/* ── Full Width ── */
+.btn--full {
+  width: 100%;
+}
+
+/* ── Icon ── */
+.btn__icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+/* ── Spinner ── */
+.btn__spinner {
+  width: 18px;
+  height: 18px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-top-color: var(--color-white);
+  border-radius: 50%;
+  animation: spin 0.6s linear infinite;
+}
+
+.btn--loading {
+  pointer-events: none;
+}

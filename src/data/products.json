@@ -1,0 +1,187 @@
+[
+  {
+    "id": 1,
+    "codigo": "W-1892",
+    "nome": "KIT CONECTOR 3 VIAS FEMEA NMAX",
+    "descricao": "Conector para Reparo no Chicote do Estator Yamaha\nNmax 160 2019\nNmax 160 2020\nNmax 160 2021\nNmax 160 2022\nNmax 160 2023\nNmax 160 2024\n- 1 Conector Fêmea\n- 3 terminais",
+    "descricaoResumida": "KIT CONECTOR 3 VIAS FEMEA NMAX",
+    "preco": 25,
+    "categoria": "Conectores",
+    "destaque": false,
+    "imagens": [
+      "/images/produtos/prod_1_1.jpeg",
+      "/images/produtos/prod_1_2.jpeg",
+      "/images/produtos/prod_1_3.jpeg"
+    ],
+    "especificacoes": {
+      "marca": "Wortech Indústria Brasileira",
+      "codigo": "W-1892",
+      "conector": "Em Nylon de alta qualidade",
+      "terminais": "metálicos estanhados de alta condutividade"
+    }
+  },
+  {
+    "id": 2,
+    "codigo": "W-0003",
+    "nome": "KIT CONECTOR 3 VIAS FEMEA PCX150",
+    "descricao": "KIT ACOMPANHA 1 CONECTOR 3 TERMINAIS FEMEA\nCONECTOR DO ESTATOR PCX150 2014>2015 / PCX150 2019 ATE 2022\nCOD 3MTB102832",
+    "descricaoResumida": "KIT CONECTOR 3 VIAS FEMEA PCX150",
+    "preco": 28,
+    "categoria": "Conectores",
+    "destaque": false,
+    "imagens": [
+      "/images/produtos/prod_2_1.jpeg"
+    ],
+    "especificacoes": {}
+  },
+  {
+    "id": 3,
+    "codigo": "W-1892",
+    "nome": "KIT CONECTOR 3 VIAS MACHO NMAX",
+    "descricao": "Conector para Reparo no Chicote do Estator Yamaha\nNmax 160 2019\nNmax 160 2020\nNmax 160 2021\nNmax 160 2022\nNmax 160 2023\nNmax 160 2024\n- 1 Conector Macho\n- 3 terminais",
+    "descricaoResumida": "KIT CONECTOR 3 VIAS MACHO NMAX",
+    "preco": 25,
+    "categoria": "Conectores",
+    "destaque": false,
+    "imagens": [
+      "/images/produtos/prod_3_1.jpeg",
+      "/images/produtos/prod_3_2.jpeg",
+      "/images/produtos/prod_3_3.jpeg"
+    ],
+    "especificacoes": {
+      "marca": "Wortech Indústria Brasileira",
+      "codigo": "W-1892",
+      "conector": "Em Nylon de alta qualidade",
+      "terminais": "metálicos estanhados de alta condutividade"
+    }
+  },
+  {
+    "id": 4,
+    "codigo": "W-0005",
+    "nome": "KIT CONECTOR 3 VIAS Plugue Retifi Cb 300 13-15 Twister Cbx 250 Xre 300 Zouil",
+    "descricao": "Plugue Retifi\nCód.:3MTB102355\nCompatível Com:\nHonda CB 300 2013 Até 2015\nHonda Twister CBX 250 Todos os anos\nHonda XRE 300 Todos os anos",
+    "descricaoResumida": "KIT CONECTOR 3 VIAS Plugue Retifi Cb 300 13-15 Twister Cbx 250 Xre 300 Zouil",
+    "preco": 28.8,
+    "categoria": "Conectores",
+    "destaque": false,
+    "imagens": [
+      "/images/produtos/prod_4_1.jpeg",
+      "/images/produtos/prod_4_2.jpeg",
+      "/images/produtos/prod_4_3.jpeg"
+    ],
+    "especificacoes": {
+      "marca": "Zouil"
+    }
+  },
+  {
+    "id": 5,
+    "codigo": "W-0006",
+    "nome": "TERMINAL 2.8 FEMEA 0.58",
+    "descricao": "KIT COM 100 TERMINAL 2.8 FEMEA",
+    "descricaoResumida": "TERMINAL 2.8 FEMEA 0.58",
+    "preco": 58,
+    "tipoPreco": "kit",
+    "categoria": "Terminais",
+    "destaque": false,
+    "imagens": [
+      "/images/produtos/prod_5_1.jpeg"
+    ],
+    "especificacoes": {}
+  },
+  {
+    "id": 6,
+    "codigo": "W-0007",
+    "nome": "TERMINAL 2.8 MACHO 0.58",
+    "descricao": "KIT 100 TERMINAL 2.8 MACHO",
+    "descricaoResumida": "TERMINAL 2.8 MACHO 0.58",
+    "preco": 58,
+    "tipoPreco": "kit",
+    "categoria": "Terminais",
+    "destaque": false,
+    "imagens": [
+      "/images/produtos/prod_6_1.jpeg",
+      "/images/produtos/prod_6_2.jpeg"
+    ],
+    "especificacoes": {}
+  },
+  {
+    "id": 7,
+    "codigo": "W-0008",
+    "nome": "TERMINAL F. G177 1.80",
+    "descricao": "TERMINAL F. G177",
+    "descricaoResumida": "TERMINAL F. G177",
+    "preco": 1.8,
+    "tipoPreco": "unidade",
+    "categoria": "Terminais",
+    "destaque": false,
+    "imagens": [
+      "/images/produtos/prod_7_1.jpeg",
+      "/images/produtos/prod_7_2.jpeg"
+    ],
+    "especificacoes": {}
+  },
+  {
+    "id": 8,
+    "codigo": "W-0009",
+    "nome": "TERMINAL G243 -1.85",
+    "descricao": "TERMINAL G243 MACHO",
+    "descricaoResumida": "TERMINAL G243",
+    "preco": 1.85,
+    "tipoPreco": "unidade",
+    "categoria": "Terminais",
+    "destaque": false,
+    "imagens": [
+      "/images/produtos/prod_8_1.jpeg",
+      "/images/produtos/prod_8_2.jpeg"
+    ],
+    "especificacoes": {}
+  },
+  {
+    "id": 9,
+    "codigo": "W-0010",
+    "nome": "TERMINAL G246 -1.85",
+    "descricao": "TERMINAL G246 FEMEA",
+    "descricaoResumida": "TERMINAL G246",
+    "preco": 1.85,
+    "tipoPreco": "unidade",
+    "categoria": "Terminais",
+    "destaque": false,
+    "imagens": [
+      "/images/produtos/prod_9_1.jpeg",
+      "/images/produtos/prod_9_2.jpeg"
+    ],
+    "especificacoes": {}
+  },
+  {
+    "id": 10,
+    "codigo": "W-0011",
+    "nome": "TERMINAL SHUR PLUG FEMEA 0.40",
+    "descricao": "KIT 100 TERMINAL SHUR PLUG FEMEA",
+    "descricaoResumida": "TERMINAL SHUR PLUG FEMEA 0.40",
+    "preco": 40,
+    "tipoPreco": "kit",
+    "categoria": "Terminais",
+    "destaque": false,
+    "imagens": [
+      "/images/produtos/prod_10_2.jpeg",
+      "/images/produtos/prod_10_1.png"
+    ],
+    "especificacoes": {}
+  },
+  {
+    "id": 11,
+    "codigo": "W-0012",
+    "nome": "TERMINAL SHUR PLUG MACHO 0.40",
+    "descricao": "KIT 100 TERMINAL SHUR PLUG MACHO",
+    "descricaoResumida": "TERMINAL SHUR PLUG MACHO 0.40",
+    "preco": 40,
+    "tipoPreco": "kit",
+    "categoria": "Terminais",
+    "destaque": false,
+    "imagens": [
+      "/images/produtos/prod_11_2.jpeg",
+      "/images/produtos/prod_11_1.png"
+    ],
+    "especificacoes": {}
+  }
+]
