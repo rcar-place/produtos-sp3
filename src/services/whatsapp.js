@@ -48,3 +48,24 @@ export function openWhatsAppGeneric(customMessage = '') {
   const url = getWhatsAppGenericUrl(customMessage);
   window.open(url, '_blank', 'noopener,noreferrer');
 }
+
+/**
+ * Formata os dados do formulário de contato e abre o WhatsApp
+ * @param {Object} data - Dados do formulário (nome, empresa, telefone, email, mensagem)
+ */
+export function openWhatsAppContactForm(data) {
+  const { nome, empresa, telefone, email, mensagem } = data;
+  
+  // Monta a mensagem formatada em negrito (*) e itálico (_) suportados pelo WhatsApp
+  let text = `*Novo Contato via Site SP3 Conectores* 🔌\n\n`;
+  text += `*👤 Nome:* ${nome}\n`;
+  if (empresa) text += `*🏢 Empresa:* ${empresa}\n`;
+  text += `*📱 Telefone:* ${telefone}\n`;
+  text += `*✉️ E-mail:* ${email}\n\n`;
+  text += `*📝 Mensagem:*\n_${mensagem}_`;
+
+  const encodedMessage = encodeURIComponent(text);
+  const url = `${WHATSAPP_BASE_URL}${COMPANY.whatsapp.number}?text=${encodedMessage}`;
+  
+  window.open(url, '_blank', 'noopener,noreferrer');
+}

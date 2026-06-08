@@ -9,7 +9,7 @@ import { z } from 'zod';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Send, CheckCircle, AlertCircle, User, Building2, Phone, Mail, MessageSquare } from 'lucide-react';
 import Button from '../ui/Button';
-import { sendContactForm } from '../../services/api';
+import { openWhatsAppContactForm } from '../../services/whatsapp';
 import './ContactForm.css';
 
 // Validation Schema
@@ -47,7 +47,10 @@ export default function ContactForm() {
   const onSubmit = async (data) => {
     try {
       setIsSubmitting(true);
-      await sendContactForm(data);
+      
+      // Formata os dados e abre a nova aba com o WhatsApp
+      openWhatsAppContactForm(data);
+      
       setSubmitStatus('success');
       reset();
       setTimeout(() => setSubmitStatus(null), 5000);
